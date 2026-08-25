@@ -2,7 +2,7 @@ package funcoes;
 
 import java.util.Scanner;
 
-public class Conversao {
+public class Questao01 {
 
     public static double converte(double c){
         return c * 1.8 + 32;
