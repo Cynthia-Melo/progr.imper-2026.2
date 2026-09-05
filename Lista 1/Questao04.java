@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Questao04 {
 
-    // Função para calcular a quantidade sem usar Math
+  
     public static int calcularAzulejos(double altParede, double largParede, double altAzulejo, double largAzulejo) {
         double areaParede = altParede * largParede;
         double areaAzulejo = altAzulejo * largAzulejo;
@@ -10,8 +10,7 @@ public class Questao04 {
 
         int totalInteiro = (int) total;
 
-        // Se tem parte fracionária (ex: 39.62 > 39), precisa de mais 1 azulejo
-        if (total > totalInteiro) {
+       
             return totalInteiro + 1;
         } else {
             return totalInteiro;
